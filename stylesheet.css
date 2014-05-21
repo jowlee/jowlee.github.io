@@ -28,18 +28,18 @@
 }
 .jumbotron .container{
 	position:relative;
-	top:100px;
+	top:70px;
 }
 .jumbotron .container h1{
-	color: #000000  ;
+	color: white  ;
 	font-family: Times;
 	font-size:100px;
 	font-weight: bold;
 }
 .jumbotron .container p{
-	color: #000000  ;
+	color: white  ;
 	font-family: Arial;
-	font-size: 50px;
+	font-size: 30px;
 }
 .pull-left{
 	float:left!important;
