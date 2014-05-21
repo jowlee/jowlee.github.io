@@ -1,15 +1,49 @@
-#header{
-	z-index:1;
-	position: fixed;
-	width: 100%;
-	margin-top: -20px;
-	background-color: #668284
-	margin-bottom:10px;
+.nav{
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	list-style:none;
 }
-#Site_Title{
-	float:left;
-	margin-left: 5px;
-	padding-top: 5px;
-	font-size: 20px;
-	color: #FFFFFF;
+.nav li{
+	display:inline;
+}
+
+.nav a{
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight:bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+.container{
+	margin-right:auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;	
+}
+.jumbotron{
+	background-image:url('https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash3/t31.0-8/703677_3981336207437_81009758_o.jpg');
+	height: 500px;
+}
+.jumbotron .container{
+	position:relative;
+	top:100px;
+}
+.jumbotron .container h1{
+	color: #000000  ;
+	font-family: Times;
+	font-size:100px;
+	font-weight: bold;
+}
+.jumbotron .container p{
+	color: #000000  ;
+	font-family: Arial;
+	font-size: 50px;
+}
+.pull-left{
+	float:left!important;
+}
+.pull-right{
+	float:right!important;
 }
