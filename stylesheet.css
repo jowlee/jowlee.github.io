@@ -47,3 +47,8 @@
 .pull-right{
 	float:right!important;
 }
+
+.titleCenter{
+	text-align: center;
+	font-family: Times;
+}
