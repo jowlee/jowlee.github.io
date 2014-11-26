@@ -25,6 +25,7 @@
 .jumbotron{
 	background-image:url("FootballThanksgiving.jpg");
 	height: 500px;
+	width: 100%
 }
 .jumbotron .container{
 	position:relative;
