@@ -66,7 +66,7 @@
 	border-bottom: 3px solid black;
 }
 .header	li{
-	display:inline;
+	display: inline;
 	padding-left: 60px;
 	font-size: 20px;
 	font-weight: bold;
@@ -94,4 +94,27 @@
 .header a:active {
 	color: #5a5a5a;
 	text-transform: uppercase;
+}
+
+/*.row{
+	display: inline;
+}*/
+
+.footer {
+	position:absolute;
+  bottom:0;
+	width:100%;
+	height:60px;   /* Height of the footer */
+	background:#6cf;
+}
+
+.col-md-4{
+	font-family: Times;
+	font-weight: bold;
+} 
+.col-sm-4{
+	display: inline;
+}
+.hidden-xs{
+	list-style-type: none;
 }
