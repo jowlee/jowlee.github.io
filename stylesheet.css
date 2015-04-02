@@ -1,9 +1,15 @@
-h1, h2, h3, h4, h5, h6, p, li, a, div, header, footer {
+h1, h2, h3, h4, h5, h6{
+	font-family: "Helvetica Neue",Helvetica, "Times New Roman", Arial;
+	font-style: normal;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+
+}
+
+p, li, a, div, header, footer {
 	font-family: "Helvetica Neue",Helvetica, "Times New Roman", Arial;
 	font-style: normal;
 	font-size: 12pt;
-	font-variant: normal;
-	font-weight: thin;
 	text-decoration: none;
 }
 
@@ -25,7 +31,7 @@ header{
 	background-color: white;
 	color: #808080;
 	width: 100%;
-	border-bottom: 1px solid #808080;
+	/*border-bottom: 1px solid #808080;*/
 }
 .nav ul{
 	text-decoration: none;
@@ -35,14 +41,14 @@ header{
 }
 .nav ul li {
 	display: inline;
-	margin-right: 8%;
+	margin-right: 2em;
 }
 .nav a {
 	vertical-align: baseline;
 	color: black;
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 
 }
 .nav a:hover {
@@ -75,7 +81,7 @@ header{
 
 
 .box-style{
-	border: 1px solid #808080;
+	/*border: 1px solid #808080;*/
 	padding: 10px;
   display: block;
   margin: 2em auto 3em auto;
@@ -113,6 +119,58 @@ footer p{
 
 .icon:hover{
 	opacity: 0.3;
+}
+
+/*Main page centering*/
+
+.name{
+	margin: 8em auto 1em auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	/*border: 1px solid #808080;*/
+}
+
+.description{
+	margin: 0 auto 8em auto;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	vertical-align: center;
+	display: block;
+	/*border: 1px solid blue;*/
+}
+
+.subLinks{
+	margin: 0 auto 18em auto;
+	text-align: center;
+	display: block;
+	/*border: 1px solid green;*/
+	/*height: 125px;*/
+}
+
+.subLinks ul{
+ 	margin: 5em auto 0 auto;
+	text-align: center;
+	/*border: 1px solid #808080;*/
+}
+
+.subLinks ul li{
+	display: inline;
+	margin-right: 3em;
+	margin-left: 3em;
+	/*border: 1px solid #808080;*/
+	vertical-align: center;
+}
+
+.subLinks a{
+	color: black;
+}
+
+.subLinks a:hover {
+	color: #666;
 }
 
 /*These attributes are used with the jQuery toggle*/
