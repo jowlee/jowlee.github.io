@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-		<link type="text/css" rel = "stylesheet" href="stylesheet.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="my_jquery_functions.js"></script>
-	</head>
-  <body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Joey Lee</title>
 
-  		<div class = "name">
-  			<h1>Joseph Lee</h1>
-  		</div>
-  		<div class = "description">
-  			I seek to learn, innovate, and explore new opportunities.
-  		</div>
-  		
-  		<div class = "subLinks">
-	  			<ul>
-						<li><a href = "http://leej42.github.io/about">About</a></li> 
-						<li><a href = "http://leej42.github.io/resume">Resume</a></li>
-						<li><a href = "http://leej42.github.io/portfolio">Portfolio</a> </li>	
-						<li><a href = "http://leej42.github.io/college">College</a> </li>	
-						<li><a href = "http://leej42.github.io/contact">Contact</a></li>
-	  	    </ul>
-  		</div>
+	<!-- FOR ANGULAR ROUTING -->
+	<base href="/">
+
+	<!-- CSS  -->
+	<!-- load bootstrap from CDN and custom CSS -->
+	<!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Bootstrap Grid only -->
+<!-- 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ -->
+
+	<!-- Fonts  -->
+	<!-- load google fonts API Lato, Vollkorn, Open Sans-->
+	<link href='http://fonts.googleapis.com/css?family=Lato|Vollkorn|Open+Sans' rel='stylesheet' type='text/css'>
+
+	<!-- JS -->
+	<!-- load angular and angular-route via CDN -->
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-animate.js"></script>
+
+	<!-- controllers -->
+	<script src="controllers/aboutCtrl.js"></script>
 
 
-	  <footer>
-			<icon class="fa fa-github"></i>
-			<ul>
-				<li><a href = "http://www.facebook.com/JoeyLee0925"><img class = "icon" src = "resources/icons/fb.png"></a></li>
-				<li><a href = "http://www.linkedin.com/in/josephwhan"><img class = "icon" src = "resources/icons/in.png"></a></li>
-				<li><a href = "http://www.github.com/leej42"><img class = "icon" src = "resources/icons/git.png"></a></li>
-				<li><a href = "http://google.com/+JosephLeeAccount"><img class = "icon" src = "resources/icons/gp.png"></a></li>
-			</ul>
-			<p>Joseph | leej42@rpi.edu</p>
-		</footer>
-	</body>
-</html>	
+	<!-- services -->
+	<!-- <script src="app/services/authService.js"></script> -->
+
+	<!-- directives -->
+	<script src="directives/headerDirective.js"></script>
+
+	<!-- main Angular app files -->
+	<script src="app.routes.js"></script>
+	<script src="app.js"></script>
+
+</head>
+<body ng-app="mySite">
+
+	<!-- ANGULAR VIEWS -->
+	<div ng-view class = "views"></div>
+
+</body>
+</html>
