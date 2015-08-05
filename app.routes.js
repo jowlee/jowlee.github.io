@@ -13,20 +13,16 @@ angular.module('app.routes', ['ngRoute'])
 		.when('/resume', {
 			templateUrl : 'views/pages/resume.html'
 		})
-/*
+
 		// route for the blog page
 		.when('/blog', {
-			templateUrl : 'app/views/pages/blog.html',
-   			controller  : 'blogController',
-    		controllerAs: 'blog'
+			templateUrl : 'views/pages/blog.html'
 		})
 
-		// route for the life page
-		.when('/about', {
-			templateUrl : 'app/views/pages/life.html',
-   			controller  : 'lifeController',
-    		controllerAs: 'life'
-		})*/
+		// route for the contact page
+		.when('/contact', {
+			templateUrl : 'views/pages/contact.html'
+		})
 
 	// Used to make the url pretty and without hastags
 	$locationProvider.html5Mode(true);

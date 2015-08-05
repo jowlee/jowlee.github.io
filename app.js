@@ -2,7 +2,9 @@ angular.module('mySite',
 						[	'ngAnimate', 
 							'app.routes', 
 							'aboutCtrl',
-							'headerDirective'
+							'headerDirective',
+							'footerDirective',
+							'ngAnimate'
 
 							/*'authService', 
 							'mainCtrl' */

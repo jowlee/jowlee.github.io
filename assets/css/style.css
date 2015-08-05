@@ -86,6 +86,7 @@ header {
 	color: black;
 	vertical-align: middle;
 	text-align: center;
+	font-family: Open Sans;
 }
 
 .main-title {
@@ -112,7 +113,8 @@ header {
 
 .resume-content {
 	margin-top: 2em;
-	font-family: Vollkorn;
+	font-family: Open Sans;
+
 }
 
 .resume-left {
@@ -125,6 +127,62 @@ header {
 	width: 50%;
 	float: right;
 	text-align: center;
+}
+
+.resume-header {
+	font-size: 1.25em;
+	font-weight: 800;
+	border-bottom: 1px solid black;
+	border-width: 60%;
+	margin: 0 10%;
+	margin-top: 1em;
+}
+
+.resume-text {
+	font-weight: 500;
+	margin: 0 12%;
+}
+
+.progLang {
+	margin-top: 1em;
+	width: 60%;
+	float:left;
+}
+
+.progLang th {
+	border-bottom: 1px solid black;
+}
+
+.resume-skills {
+	margin-top: 1em;
+	width: 35%;
+	float:right;
+}
+
+.resume-skills th {
+	border-bottom: 1px solid black;
+}
+
+/* Resume Page Styles */
+
+.contact {
+    height:100vh;
+	background: url(../../assets/img/closeUpMt.jpg) no-repeat center center fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.contact-content {
+	width: 50%;
+	float: left;
+	padding: 2em;
+	text-align: center;
+}
+
+.contact-header {
+	font-size: 2em;
+	font-weight: 900;
+	border-bottom: 1px solid black;
 }
 
 
