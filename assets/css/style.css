@@ -163,6 +163,25 @@ header {
 	border-bottom: 1px solid black;
 }
 
+.experience {
+	margin: 0 1`em;
+}
+
+.experience-title {
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-top: 1em;
+	text-align: left;
+
+}
+
+.experience-content {
+	font-size: .85em;
+	font-weight: 500;
+	margin-left: 1em;
+	text-align: left;
+}
+
 /* Resume Page Styles */
 
 .contact {
@@ -170,6 +189,7 @@ header {
 	background: url(../../assets/img/closeUpMt.jpg) no-repeat center center fixed;
 	background-repeat:no-repeat;
 	background-size: cover;
+	font-family: Open Sans;
 }
 
 .contact-content {
@@ -184,7 +204,6 @@ header {
 	font-weight: 900;
 	border-bottom: 1px solid black;
 }
-
 
 
 /* Responsive Design */
