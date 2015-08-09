@@ -76,7 +76,7 @@ header {
 
 .about {
     height:100vh;
-	background: url(../../assets/img/homeLight.jpg) no-repeat center center fixed;
+	background: url(../../assets/img/farMt.jpg) no-repeat center center fixed;
 	background-repeat:no-repeat;
 	background-size: cover;
 }
@@ -106,6 +106,9 @@ header {
 
 .resume {
     height:100vh;
+/*	background: url(../../assets/img/farMt.jpg) no-repeat center center fixed;
+	background-repeat:no-repeat;
+	background-size: cover;*/
 	background: url(../../assets/img/farMt.jpg) no-repeat center center fixed;
 	background-repeat:no-repeat;
 	background-size: cover;
