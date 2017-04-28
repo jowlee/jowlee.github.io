@@ -1,0 +1,17 @@
+<div id='navbar'>
+    <h4 class="page-title">
+      <a href='/index.html' class="page-title">
+        {{ page.title }}
+      </a>
+    </h4>
+    <div id='navbar-buttons'>
+      {% for page in site.data.map %}
+        <h5 class='navbar-button'>
+          <a class='navbar-button-text' href='{{ page.url }}'>
+            {{ page.title }}
+          </a>
+        </h5>
+      {% endfor %}
+    </div>
+</div>
+<script src='js/navbar.js'></script>

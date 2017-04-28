@@ -1,0 +1,102 @@
+a {
+    text-decoration:none;
+}
+
+p { margin-bottom: 0; }
+
+#header-image {
+  text-align:center;
+  opacity: 0.5;
+}
+
+#container{
+    height:300px;
+    margin-top:10px;
+}
+
+#name {
+    /*text-align: center;*/
+}
+
+#main{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#description{
+    font-size: 2.5rem;
+    color:#888;
+}
+
+.page-item:after {
+  content: " \00B7 ";
+}
+
+.page-item:last-child:after { content: ""; }
+
+.block-title {
+    text-decoration: underline;
+}
+
+.block-description {
+  padding-left: 2rem;
+}
+
+.page-container {
+  display:flex;
+  align-items: stretch;
+}
+
+.page-container-center {
+  display:flex;
+  align-items: center;  
+}
+
+.page-descr-container {
+  align-items: center;
+  display: inline-flex;
+  height: 100%;
+}
+
+.page-descr-container-center {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.page-title-container {
+  border-right: 1px solid black;
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.page-title {
+  text-transform: lowercase;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.page-item {
+  padding-right: 10px;
+}
+
+#header-image {
+  opacity: 0.5;
+  width: 100%;
+}
+
+/* Footer css */
+#footer{
+    margin-top:100px;
+    margin-bottom:50px;
+    color:#aaa;
+    text-align:center;
+    /*font-size:14px;*/
+}
+#footer a{
+    text-decoration:none;
+    color:#888;
+}
+#footer a:hover{
+    text-decoration:none;
+    color:#ccc;
+}

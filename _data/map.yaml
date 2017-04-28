@@ -1,0 +1,32 @@
+- title: 'Bio'
+  style: "page-container"
+  description: "I'm a software engineer who designs systems that benefit users, the world, and college bound students.
+  Currently, I sling code at CollegeAI, a startup aimed at using data to find the best colleges for students."
+- title: 'Work'
+  style: "page-container"
+  blocks:
+    - title: TripAdvisor
+      description : "As part of the Search Engine Optimization team, I developed live site features, fixed bugs, and worked with analysts to increase organic traffic to the site."
+    - title: Neos
+      description : "I worked on developing internal management tools using web technologies."
+- title: 'Projects'
+  style: "page-container"
+  blocks:
+    - title: Venue
+      url: 'https://venue.cs.rpi.edu/'
+      description : "Venue is an platform that enables instructors to assign attendance to local events or venues- allowing students to attend concerts, art shows or volunteering efforts for course credit."
+    - title: nyRack
+      url: 'https://github.com/nickkoul/nyRack'
+      description : "A project aimed towards using machine learing to find optimal locations for New York City bicycle racks.
+      This project won 1st place at Rensselaer Polynic Institute 2nd annual Lally Business Analytics Competition."
+- title: 'Contact'
+  style: "page-container-center"
+  items:
+    - title: email
+      url : "mailto:joey@collegeai.com"
+    - title: github
+      url : https://github.com/jowlee
+    - title: linkedin
+      url : https://www.linkedin.com/in/josephwhan
+    - title: angle.co
+      url : https://angel.co/jowlee
